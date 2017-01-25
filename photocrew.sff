@@ -1,0 +1,18 @@
+<tests name="photocrew.sff">
+  <test name="test1" screen_error="true" close_browser="false" ignore_error="false" precondition=" " postcondition=" " skip="false" description="">
+    <browsers wait="5">
+      <browser name="chrome" width="0" height="0" logpath="" port="" verbose="" />
+    </browsers>
+    <test-cases>
+      <test-case action="go" method=" " params="" value="https://photocrew.ru" skip="false">Открываем сайт</test-case>
+      <test-case action="title" method=" " params="" value="Свадебный фотограф в спб - Услуги фотографа на свадьбу" skip="false">Проверяем заголовок</test-case>
+      <test-case action="click" method="class" params="item-107" value="" skip="false">Описание действия</test-case>
+      <test-case action="title" method=" " params="" value="Портфолио фотографа" skip="false">Описание действия</test-case>
+      <test-case action="go" method=" " params="" value="https://photocrew.ru/check.html" skip="false">Описание действия</test-case>
+      <test-case action="pause" method=" " params="" value="3000" skip="false">Описание действия</test-case>
+      <test-case action="text" method="id" params="code" value="PNH253" skip="false">Описание действия</test-case>
+      <test-case action="click" method="id" params="sert-sub" value="" skip="false">Описание действия</test-case>
+      <test-case action="search" method="class" params="sert-check-true" value="" skip="false">Описание действия</test-case>
+    </test-cases>
+  </test>
+</tests>
